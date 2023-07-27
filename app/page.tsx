@@ -18,7 +18,7 @@ export default function Home() {
             width={220}
             height={20}
             alt="My photo"
-            src={'/me.jpg'}
+            src={'./me.jpg'}
             className={
               'rounded-[4rem] object-cover ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125'
             }></Image>
