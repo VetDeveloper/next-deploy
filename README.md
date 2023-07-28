@@ -1,8 +1,9 @@
 # Тестовое задание. Михайлов Александр
 
-## deploy
+## links
 
-Ссылка на развернутое приложение: https://vetdeveloper.github.io/next-deploy/
+Развернутое приложение: https://vetdeveloper.github.io/next-deploy/
+Резюме: https://docs.google.com/document/d/1BYemAPnx72fhgX2EuiIOTzbIQJLUaYuVfTVdcBHW6EI/
 
 ## Примечание
 
