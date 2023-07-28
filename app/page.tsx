@@ -7,7 +7,7 @@ import { useRef, useState } from 'react'
 import InteractiveContent from './interactiveContent/InteractiveContent'
 
 export default function Home() {
-  const [selected, setSelected] = useState<string>('')
+  const [selected, setSelected] = useState<string>("")
   const ref = useRef<HTMLInputElement | null>(null)
 
   return (
