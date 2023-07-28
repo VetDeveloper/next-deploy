@@ -10,11 +10,11 @@ const interactiveContentMap = {
   App: <Application />,
 }
 
-const defaultValue = <span className={'text-slate-500'}>Вам необходимо что-то выбрать &uarr;</span>
+const defaultValue = <span className={'text-slate-500'}>You need to choose something &uarr;</span>
 
 const InteractiveContent = ({ title, refer }: { title: string; refer: MutableRefObject<HTMLInputElement | null> }) => {
   return (
-    <div className={'mb-4 mt-8 max-w-[80%] border rounded-lg p-6'} ref={refer}>
+    <div className={'mb-4 mt-8 max-w-[70%] border rounded-lg p-6'} ref={refer}>
       {get(interactiveContentMap, title, defaultValue)}
     </div>
   )

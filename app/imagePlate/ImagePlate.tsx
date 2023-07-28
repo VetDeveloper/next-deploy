@@ -27,7 +27,7 @@ const ImagePlate = ({ title, src, width, height, alt, selected, setSelected, ref
         isActive && 'border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30',
         'flex flex-col items-center group rounded-lg border border-transparent px-5 py-4 transition-colors cursor-pointer',
       )}>
-      <h2 className={`mb-3 text-2xl font-semibold`}>
+      <h2 className={`mb-3 text-xl sm:text-2xl font-semibold`}>
         <span className="relative inline-block transition-transform group-hover:translate-y-1 group-hover:underline">
           {title}
           <span className="animate-ping absolute h-1 w-1 rounded-full bg-sky-400 opacity-75 top-1 -right-2"></span>

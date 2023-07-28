@@ -9,7 +9,7 @@ type SelectProps = {
 const Select = ({ getAll, setSelected }: SelectProps) => (
   <>
     <label htmlFor="objs" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-      Select an option
+      Select an name
     </label>
     <select
       id="objs"
